@@ -14,6 +14,6 @@ describe("Airport", function() {
 	it("can clear planes for landing", function() {
 		airport.clearForLanding(plane);
 		expect(airport.planes()).toEqual([plane]);
-	})
+	});
 
 });

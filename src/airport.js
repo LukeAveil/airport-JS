@@ -1,6 +1,6 @@
 function Airport() {
-	this._hanger = []
-};
+	this._hanger = [];
+}
 
 Airport.prototype.planes = function() {
 	return this._hanger;
